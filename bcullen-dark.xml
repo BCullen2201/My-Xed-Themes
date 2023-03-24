@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="bcullen-dark" _name="BCullen Dark" version="1.0">
+
+  <author>Brandon Cullen</author>
+  <_description>My personal dark theme for Xed.</_description>
+
+  <!-- BCullen Dark Colors -->
+  <color name="Blue1"                       value="#00060c"/> <!--    I might change the blues in the near future,    -->
+  <color name="Blue2"                       value="#001529"/> <!--    some of them can be hard to tell apart.         -->
+  <color name="Blue3"                       value="#003462"/>
+  <color name="Blue4"                       value="#004a8e"/>
+  <color name="Blue5"                       value="#0061b9"/>
+  <color name="Blue6"                       value="#0085ff"/>
+
+  <color name="Green1"                      value="#006600"/>
+  <color name="Green2"                      value="#009900"/>
+  <color name="Green3"                      value="#00cc00"/>
+  <color name="Green4"                      value="#00ff00"/>
+
+  <color name="White1"                      value="#efefef"/>
+  <color name="White2"                      value="#f2f2f2"/>
+
+  <color name="Rust1"                       value="#c47c32"/>
+  <color name="Rust2"                       value="#ffa500"/>
+
+  <color name="Red1"                        value="#ff1a5e"/>
+  <color name="Red2"                        value="#ff0000"/>
+
+  <color name="Black1"                      value="#202a2d"/>
+
+  <!-- Global Settings -->
+  <style name="text"                        foreground="White2" background="Blue2"/>
+  <style name="selection"                   foreground="White1" background="Blue6"/>
+  <style name="cursor"                      foreground="White2"/>
+  <style name="secondary-cursor"            foreground="White1"/>
+  <style name="current-line"                background="Blue1"/> <!-- Might make a color just for the current line highlighting -->
+  <style name="line-numbers"                foreground="Blue5" background="Blue1"/>
+  <style name="draw-spaces"                 foreground="Blue5"/>
+  <style name="background-pattern"          background="Red2"/> <!-- I have no clue what this does, so I just made it red -->
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               foreground="Green4" background="Green1"/>
+  <style name="bracket-mismatch"            background="Red2"/>
+
+  <!-- Right Margin -->
+  <style name="right-margin"                foreground="Red2" background="White2"/>
+
+  <!-- Search Matching -->
+  <style name="search-match"                foreground="White1" background="Green2"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="Green3" italic="true"/>
+  <style name="def:shebang"                 foreground="Blue3" italic="true" bold="true"/>
+  <style name="def:doc-comment-element"     italic="true"/>
+
+  <!-- Constants -->
+  <style name="def:constant"                foreground="Blue6"/>
+  <style name="def:string"                  foreground="Rust1"/>
+  <style name="def:special-char"            foreground="Rust2"/>
+  <style name="def:special-constant"        foreground="Red1"/>
+  <style name="def:floating-point"          foreground="Blue6"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="White2"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="Blue4" bold="true"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="Blue5" bold="true"/>
+
+  <!-- Others -->
+  <style name="def:preprocessor"            foreground="Blue4"/>
+  <style name="def:error"                   foreground="White2" background="Red2" bold="true"/>
+  <style name="def:warning"                 foreground="White2" background="Rust2"/>
+  <style name="def:note"                    background="Blue1" foreground="Blue6" bold="true"/>
+  <style name="def:underlined"              italic="true" underline="single"/>
+
+  <!-- Heading styles, uncomment to enable -->
+  <!--
+  <style name="def:heading0"                scale="5.0"/>
+  <style name="def:heading1"                scale="2.5"/>
+  <style name="def:heading2"                scale="2.0"/>
+  <style name="def:heading3"                scale="1.7"/>
+  <style name="def:heading4"                scale="1.5"/>
+  <style name="def:heading5"                scale="1.3"/>
+  <style name="def:heading6"                scale="1.2"/>
+  -->
+
+  <!-- Language specific -->
+  <style name="diff:added-line"             foreground="Green3"/>
+  <style name="diff:removed-line"           foreground="Red1"/>
+  <style name="diff:changed-line"           foreground="Rust2"/>
+  <style name="diff:diff-file"              foreground="Green2" bold="true"/>
+  <style name="diff:location"               foreground="Green2"/>
+  <style name="diff:special-case"           foreground="Black1" bold="true"/>
+
+  <style name="latex:command"               foreground="Green2" bold="true"/>
+  <style name="latex:include"               use-style="def:preprocessor"/>
+
+</style-scheme>
